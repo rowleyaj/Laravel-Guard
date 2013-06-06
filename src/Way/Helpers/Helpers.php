@@ -23,6 +23,11 @@ class Helpers {
 				$val = trim($val, "'");
 			}
 
+			if (is_array($val))
+			{
+				$val = "{" . arrayToRuby($val) . "}";
+			}
+
 			$rubyFormattedOptions[] =  ":$key => $val";
 		}
 
