@@ -50,6 +50,18 @@ return array(
 
 	/*
 	|--------------------------------------------------------------------------
+	| The Path To Your Sass Directory
+	|--------------------------------------------------------------------------
+	|
+	| Here, you'll specify the name of the directory where sass files are
+	| stored.
+	| This uses the assets path as a base
+	|
+	*/
+	'sass_path' => 'sass',
+
+	/*
+	|--------------------------------------------------------------------------
 	| JavaScript Concatenation
 	|--------------------------------------------------------------------------
 	|
